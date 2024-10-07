@@ -1,0 +1,14 @@
+.iconBtn {
+  border: 0;
+  padding: 4px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  height: 28px;
+  padding: 4px 20px;
+  background: transparent;
+
+  &:hover {
+    background: lightgray;
+  }
+}

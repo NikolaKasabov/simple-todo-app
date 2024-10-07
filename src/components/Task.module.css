@@ -1,0 +1,27 @@
+.task {
+  display: grid;
+  /* grid-template-columns: 1fr 100px; */
+  grid-template-columns: auto 1fr auto;
+  gap: 5px;
+  margin: 10px 0px;
+  width: 100%;
+}
+
+.completedTask {
+  opacity: 0.3;
+}
+
+.completedInput {
+  margin-right: 10px;
+  width: 20px;
+}
+
+.name {
+  align-self: center;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+}
